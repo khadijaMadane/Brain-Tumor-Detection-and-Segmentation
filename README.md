@@ -43,7 +43,7 @@ The model performance was evaluated on a test dataset using various metrics comm
 
 The following screenshot shows the evaluation results for the model on the test dataset, including key metrics such as the Dice coefficient, IoU, Recall, Precision, and Test Loss:
 
-<img src="Images/res5.png" width="700"/>
+<img src="Images/res5.png" width="1000"/>
 
 ## Results
 Sample visualizations of predictions vs true masks are displayed after testing, showcasing the model's performance on various MRI images.
@@ -52,6 +52,13 @@ Sample visualizations of predictions vs true masks are displayed after testing, 
 <img src="Images/res3.png" width="500"/>
 <img src="Images/res4.png" width="500"/>
 
+## Contributing
+
+We welcome contributions! Please feel free to submit issues or pull requests. If you have any questions or need support, feel free to reach out. We welcome any contributions that enhance the project's scope and impact.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
