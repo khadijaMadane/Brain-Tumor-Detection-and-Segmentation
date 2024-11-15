@@ -38,11 +38,19 @@ The core of the project is the U-Net architecture, which is particularly well-su
 - **Bottleneck**: The deepest part of the network, where the features are most compressed.
 - **Decoder**: Upsampling and concatenation with encoder features to make precise pixel-wise predictions.
 
+ ## Model Evaluation
+The model performance was evaluated on a test dataset using various metrics commonly used for image segmentation tasks. The evaluation metrics, including loss, Dice coefficient, IoU (Intersection over Union), recall, and precision, were computed to assess the effectiveness of the model in segmenting the tumor regions.
+
+The following screenshot shows the evaluation results for the model on the test dataset, including key metrics such as the Dice coefficient, IoU, Recall, Precision, and Test Loss:
+<img src="Images/res1.png" width="500"/>
+
 ## Results
 Sample visualizations of predictions vs true masks are displayed after testing, showcasing the model's performance on various MRI images.
 <img src="Images/res1.png" width="500"/>
 <img src="Images/res2.png" width="500"/>
 <img src="Images/res3.png" width="500"/>
 <img src="Images/res4.png" width="500"/>
+
+
 
 
