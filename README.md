@@ -6,16 +6,6 @@ This project utilizes deep learning techniques for brain tumor segmentation in M
 
 This project is aimed at automating the segmentation of brain tumors in MRI scans. The U-Net model, a convolutional neural network designed for image segmentation, is used for this task. The model is trained on a dataset of MRI images with labeled tumor regions, and the goal is to predict tumor regions in unseen MRI images.
 
-## Technologies Used
-
-- **TensorFlow**: For deep learning model development.
-- **Keras**: High-level neural networks API, running on top of TensorFlow.
-- **NumPy & Pandas**: For data handling and manipulation.
-- **Matplotlib**: For visualizations and plotting.
-- **OpenCV**: For image processing tasks.
-- **scikit-learn**: For model evaluation and metrics.
-- **tqdm**: For progress bar during training.
-
 ## Dataset
 
 The **LGG Segmentation Dataset** contains brain MRI images and manual FLAIR (Fluid-Attenuated Inversion Recovery) abnormality segmentation masks. The data comes from **The Cancer Imaging Archive (TCIA)** and includes images from 110 patients with lower-grade gliomas, part of **The Cancer Genome Atlas (TCGA)** collection.
