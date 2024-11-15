@@ -18,7 +18,16 @@ This project is aimed at automating the segmentation of brain tumors in MRI scan
 
 ## Dataset
 
-This project uses MRI images of the brain, where each image is labeled with a binary mask indicating the tumor region. The dataset used is publicly available and can be found on various open datasets platforms.
+The **LGG Segmentation Dataset** contains brain MRI images and manual FLAIR (Fluid-Attenuated Inversion Recovery) abnormality segmentation masks. The data comes from **The Cancer Imaging Archive (TCIA)** and includes images from 110 patients with lower-grade gliomas, part of **The Cancer Genome Atlas (TCGA)** collection.
+
+- **Content**: MRI images with tumor segmentation masks for FLAIR abnormalities.
+- **Genomic Data**: Includes genomic subtypes and patient data (available in `data.csv`).
+- **Source**: [LGG MRI Segmentation Dataset on Kaggle](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+
+For further details, see the following publications:
+- "Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm" (Computers in Biology and Medicine, 2019).
+- "Radiogenomics of lower-grade glioma: algorithmically-assessed tumor shape is associated with tumor genomic subtypes" (Journal of Neuro-Oncology, 2017).
+
 
 ## Model
 
@@ -29,7 +38,11 @@ The core of the project is the U-Net architecture, which is particularly well-su
 - **Bottleneck**: The deepest part of the network, where the features are most compressed.
 - **Decoder**: Upsampling and concatenation with encoder features to make precise pixel-wise predictions.
 
-## How to Use
-
+## Results
+Sample visualizations of predictions vs true masks are displayed after testing, showcasing the model's performance on various MRI images.
+<img src="Images/res1.png" width="500"/>
+<img src="Images/res2.png" width="500"/>
+<img src="Images/res3.png" width="500"/>
+<img src="Images/res4.png" width="500"/>
 
 
