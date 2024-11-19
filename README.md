@@ -1,5 +1,6 @@
 # Brain Tumor Detection & Segmentation 
 This project benchmarks deep learning models, including DeepLabV3+, UNet, Attention-UNet, V-Net, UNETR, and SegNet, using TensorFlow to evaluate their performance in achieving precise segmentation and detection of brain tumors from MRI images.
+<img src="Images/image.png" width="1000"/>
 
 ## Overview
 
