@@ -51,7 +51,7 @@ The Attention-UNet model accurately detects tumor regions while focusing on impo
 ### DeepLabV3+ Segmentation Output
 
 DeepLabV3+ provides precise boundaries for tumor segmentation, demonstrating its robustness in complex cases.
-<img src="Images/Deeplabv3_res" width="1000"/>
+<img src="Images/Deeplabv3_res.png" width="1000"/>
 
 ## Contributing
 
