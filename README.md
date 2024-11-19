@@ -40,6 +40,18 @@ The models are evaluated based on the following:
 
 The results highlight Attention-UNet and DeepLabV3+ as the top-performing models for brain tumor segmentation. Attention-UNet achieved the highest Dice Coefficient (0.8949) and strong Recall (0.9045), excelling in capturing tumor regions. DeepLabV3+, with a Dice Coefficient of 0.8920 and the highest Precision (0.9124), demonstrated superior accuracy in delineating tumor boundaries. These models strike a balance between detection sensitivity and segmentation precision, making them the most effective for this task.
 
+## Visual Results of Segmentation
+Below are visual comparisons of brain tumor segmentation results produced by the best-performing models: Attention-UNet and DeepLabV3+.
+
+### Attention-UNet Segmentation Output
+
+The Attention-UNet model accurately detects tumor regions while focusing on important areas, ensuring high recall and precision.
+<img src="Images/attention_unet_res.png" width="1000"/>
+
+### DeepLabV3+ Segmentation Output
+
+DeepLabV3+ provides precise boundaries for tumor segmentation, demonstrating its robustness in complex cases.
+<img src="Images/DeeplabV3_res" width="1000"/>
 
 ## Contributing
 
