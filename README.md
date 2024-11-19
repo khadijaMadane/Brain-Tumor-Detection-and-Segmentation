@@ -1,7 +1,5 @@
 # Brain Tumor Detection & Segmentation 
 
-This project utilizes deep learning techniques for brain tumor segmentation in MRI images. Using a U-Net model implemented in TensorFlow, the goal is to accurately detect and segment brain tumors in medical images.
-
 ## Overview
 
 This project focuses on the detection and segmentation of brain tumors from MRI scans using state-of-the-art deep learning architectures. It leverages various semantic segmentation models to provide accurate and efficient tumor detection.
@@ -38,29 +36,10 @@ The models are evaluated based on the following:
 - **Precision**: Indicates the quality of tumor segmentation.
 
 ## Results
-| Model           | Loss   | Dice Coefficient | IoU    | Recall | Precision |
-|------------------|--------|------------------|--------|--------|-----------|
-| **DeepLabV3+**   | 0.1079 | 0.8920           | 0.8060 | 0.8916 | 0.9124    |
-| **UNet**         | 0.1268 | 0.8731           | 0.7766 | 0.8849 | 0.9084    |
-| **Attention-UNet** | 0.1050 | 0.8949         | 0.8107 | 0.9045 | 0.8939    |
-| **V-Net**        | 0.1336 | 0.8663           | 0.7681 | 0.8606 | 0.8921    |
-| **UNETR**        | 0.2302 | 0.7698           | 0.6298 | 0.6931 | 0.8794    |
-| **SegNet**       | 0.1401 | 0.8598           | 0.7551 | 0.8877 | 0.8590    |
+<img src="Images/resultat.png" width="1000"/>
 
+The results highlight Attention-UNet and DeepLabV3+ as the top-performing models for brain tumor segmentation. Attention-UNet achieved the highest Dice Coefficient (0.8949) and strong Recall (0.9045), excelling in capturing tumor regions. DeepLabV3+, with a Dice Coefficient of 0.8920 and the highest Precision (0.9124), demonstrated superior accuracy in delineating tumor boundaries. These models strike a balance between detection sensitivity and segmentation precision, making them the most effective for this task.
 
- ## Model Evaluation
-The model performance was evaluated on a test dataset using various metrics commonly used for image segmentation tasks. The evaluation metrics, including loss, Dice coefficient, IoU (Intersection over Union), recall, and precision, were computed to assess the effectiveness of the model in segmenting the tumor regions.
-
-The following screenshot shows the evaluation results for the model on the test dataset, including key metrics such as the Dice coefficient, IoU, Recall, Precision, and Test Loss:
-
-<img src="Images/res5.png" width="1000"/>
-
-## Results
-Sample visualizations of predictions vs true masks are displayed after testing, showcasing the model's performance on various MRI images.
-<img src="Images/res1.png" width="500"/>
-<img src="Images/res2.png" width="500"/>
-<img src="Images/res3.png" width="500"/>
-<img src="Images/res4.png" width="500"/>
 
 ## Contributing
 
