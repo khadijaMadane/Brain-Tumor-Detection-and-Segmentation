@@ -31,11 +31,11 @@ For further details, see the following publications:
 
 ## Evaluation Metrics
 The models are evaluated based on the following:
-- **Loss**: Measures model optimization.
-- **Dice Coefficient**: Measures overlap between predicted and ground truth.
-- **IoU (Intersection over Union)**: Quantifies prediction accuracy.
-- **Recall**: Captures sensitivity to tumor detection.
-- **Precision**: Indicates the quality of tumor segmentation.
+- **Loss**: Dice Loss was used to optimize the model. A lower loss indicates better segmentation performance.
+- **Dice Coefficient**: Measures the overlap between the predicted segmentation and the ground truth. High Dice values indicate accurate detection of tumor shapes and boundaries.
+- **IoU (Intersection over Union)**: Quantifies segmentation accuracy by comparing the overlap and union of predicted and true regions. Higher IoU reflects better alignment with the ground truth.
+- **Recall**: Indicates the model’s ability to detect all tumor areas, including small or difficult ones. A high recall ensures minimal false negatives.
+- **Precision**: Evaluates the accuracy of predictions by measuring the proportion of true tumors among all detected regions. High precision minimizes false positives.
 
 ## Results
 <img src="Images/resultat.png" width="1000"/>
